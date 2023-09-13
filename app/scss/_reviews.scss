@@ -1,0 +1,13 @@
+.reviews{
+    background-color: $white;
+
+    text-align: center;
+
+    @include breakpoint-up(medium) {
+        text-align: left;
+    }
+
+    .go4269172405{
+        display: none!important;
+    }
+}

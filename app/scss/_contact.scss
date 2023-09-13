@@ -1,0 +1,29 @@
+.contact {
+
+    background-color: $lightGrayishBlue;
+    text-align: center;
+
+    @include breakpoint-up(medium) {
+        text-align: left;
+    }
+
+    &__intro {
+        margin-bottom: 3.75rem;
+    }
+
+    &__info{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    &__details{
+        flex: 1;
+        padding: 20px;
+    }
+
+    &__map{
+        flex: 1;
+        height: 450px; /* Set the desired height for the map */
+    }
+
+}
